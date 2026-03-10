@@ -1,0 +1,45 @@
+<svg width="1200" height="300" viewBox="0 0 1200 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1200" height="300" fill="#1a1a1a"/>
+  
+  <!-- Subtle grid -->
+  <pattern id="grid" width="60" height="60" patternUnits="userSpaceOnUse">
+    <path d="M 60 0 L 0 0 0 60" fill="none" stroke="rgba(245,242,237,0.03)" stroke-width="1"/>
+  </pattern>
+  <rect width="1200" height="300" fill="url(#grid)"/>
+  
+  <!-- Glow -->
+  <radialGradient id="glow" cx="50%" cy="50%" r="40%">
+    <stop offset="0%" stop-color="#c4432e" stop-opacity="0.08"/>
+    <stop offset="100%" stop-color="#c4432e" stop-opacity="0"/>
+  </radialGradient>
+  <rect width="1200" height="300" fill="url(#glow)"/>
+  
+  <!-- Matoi mark -->
+  <g transform="translate(520, 50)">
+    <rect x="75" y="12" width="8" height="110" rx="4" fill="#c4432e"/>
+    <rect x="48" y="21" width="62" height="5" rx="2.5" fill="#c4432e" opacity="0.3"/>
+    <rect x="42" y="32" width="74" height="5.5" rx="2.75" fill="#c4432e" opacity="0.45"/>
+    <rect x="36" y="44" width="86" height="6" rx="3" fill="#c4432e" opacity="0.6"/>
+    <rect x="30" y="58" width="98" height="7" rx="3.5" fill="#c4432e" opacity="0.75"/>
+    <rect x="25" y="74" width="108" height="7.5" rx="3.75" fill="#c4432e" opacity="0.9"/>
+    <rect x="21" y="92" width="116" height="8" rx="4" fill="#c4432e"/>
+    <circle cx="79" cy="15" r="5" fill="#c4432e"/>
+  </g>
+  
+  <!-- Wordmark -->
+  <text x="600" y="210" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="54" fill="#f5f2ed" letter-spacing="-1">matoi</text>
+  
+  <!-- Tagline -->
+  <text x="600" y="248" text-anchor="middle" font-family="'Courier New', monospace" font-size="12" fill="rgba(245,242,237,0.35)" letter-spacing="4">WHERE TEAMS RALLY</text>
+  
+  <!-- Kanji accent left -->
+  <text x="80" y="165" font-family="Georgia, serif" font-size="28" fill="rgba(196,67,46,0.12)">纏</text>
+  
+  <!-- Kanji accent right -->
+  <text x="1090" y="165" font-family="Georgia, serif" font-size="28" fill="rgba(196,67,46,0.12)">纏</text>
+  
+  <!-- Top/bottom subtle lines -->
+  <line x1="200" y1="0" x2="1000" y2="0" stroke="#c4432e" stroke-opacity="0.3" stroke-width="2"/>
+  <line x1="200" y1="300" x2="1000" y2="300" stroke="#c4432e" stroke-opacity="0.3" stroke-width="2"/>
+</svg>
