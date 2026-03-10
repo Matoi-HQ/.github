@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/matoi-dev/.github/main/profile/assets/matoi-banner.svg" alt="Matoi" width="100%" />
+  <img src="https://raw.githubusercontent.com/Matoi-HQ/.github/refs/heads/main/profile/assets/matoi-banner.svg" alt="Matoi" width="100%" />
 </p>
 
 <p align="center">
